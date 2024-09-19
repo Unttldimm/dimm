@@ -1,0 +1,27 @@
+  .header {
+    padding: 1px;
+    display: flex;
+    background-color: rgb(182, 19, 185);
+    justify-content: center;
+  }
+  
+  .header-title { 
+    color:white;
+    font-family: Helvetica;
+    font-size: 1em;
+    padding: 10px;
+    background-color: rgba(210, 126, 219, 60%);
+    text-decoration: none;
+  }
+
+  .header:hover{
+    background-color: coral;
+  }
+
+  /* a {
+    text-decoration: none;
+  } */
+
+  * {
+    font-family: sans-serif;
+  }

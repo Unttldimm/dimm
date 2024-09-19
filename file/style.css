@@ -1,0 +1,38 @@
+/* univ selector */
+* {
+    font-family: sans-serif;
+}
+/* type sel */
+h1 {
+    font-size: 24;
+    color: darkturquoise;
+}
+
+/* ss */
+.game {
+    color: blue;
+}
+
+.dev {
+    color: red;
+}
+
+#gm1 {
+    font-family: sans-serif;
+}
+
+/* child ss */
+h3>span{
+    color: red;
+}
+
+/* 1st child */
+h3+p{
+    color: brown;
+    font-size: 14px;
+}
+
+/* all ch */
+h1~p{
+    text-align: justify;
+}
